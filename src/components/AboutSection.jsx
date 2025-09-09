@@ -24,7 +24,7 @@ export const AboutSection = () => {
             {/*<a href="#contact" className="cosmic-button">*/}
             {/*  Get in Touch*/}
             {/*</a>*/}
-            <a href="/public/Resume.pdf" className="cosmic-button px-6 py-2 rounded-full border border-primary hover:bg-primary/10 transition-colors duration-300">
+            <a href="https://docs.google.com/document/d/1Raz8YPmrYASBm5wvMSxOeFKIiMxKidk5/edit?usp=sharing&ouid=115842286905385454027&rtpof=true&sd=true" className="cosmic-button px-6 py-2 rounded-full border border-primary hover:bg-primary/10 transition-colors duration-300">
               Download CV
             </a>
           </div>
