@@ -3,19 +3,29 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 // Set up project list
 const projects = [
   {
-    id: 1,
-    title: "Website Redesign",
-    description: "A redesign of the BQ Flea website. Includes newsletter sign up functionality.",
-    image: "/Projects/React_Calc_App.png",
-    tags: ["HTML", "TailwindCSS", "Javascript (ES6+)"],
-    demoUrl: "https://reactcalculator-am.netlify.app/"
+        id: 1,
+        title: "AI Resume Analyzer",
+        description: "An enterprise ready AI powered Applicant Tracking System (ATS)",
+        image: "/Projects/Resumind_ATS_Tool.png",
+        tags: ["HTML", "TailwindCSS", "Javascript (ES6+)"],
+        demoUrl: "https://ai-resume-analyzer-tool.vercel.app/"
   },
   {
-    id: 2, title: "Calculator", description: "A simple calculator app. Figma used for designing calculator prior to build.",
-    image: "/Projects/BQ_Flea_Site_Redesign.png",
-    tags: ["React", "TypeScript", "TailwindCSS"],
-    demoUrl: "https://bqflearedesignam.netlify.app/"
-  }
+        id: 2,
+        title: "Website Redesign",
+        description: "A redesign of the BQ Flea website. Includes newsletter sign up functionality.",
+        image: "/Projects/BQ_Flea_Site_Redesign.png",
+        tags: ["React", "TypeScript", "TailwindCSS"],
+        demoUrl: "https://bqflearedesignam.netlify.app/"
+  },
+    {
+    id: 3,
+    title: "Calculator",
+    description: "A simple calculator app. Figma used for designing calculator prior to build.",
+        image: "/Projects/React_Calc_App.png",
+        tags: ["React", "TypeScript", "TailwindCSS"],
+    demoUrl: "https://reactcalculator-am.netlify.app/"
+},
 ]
 
 export const ProjectsSection = () => {
@@ -33,10 +43,12 @@ export const ProjectsSection = () => {
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
               <div
                 className="h-48 overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                  <a href={project.demoUrl} target="_blank">
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+              </a>
               </div>
 
               <div className="p-6">

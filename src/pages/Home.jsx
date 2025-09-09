@@ -21,9 +21,9 @@ export const Home = () => {
       <main>
         <HeroSection />
         <AboutSection />
-        <SkillsSection />
-        <ProjectsSection />
-        <ContactSection />
+          <ProjectsSection />
+        {/*<ContactSection />*/}
+          {/*<SkillsSection />*/}
       </main>
       { /* Footer */}
       <Footer />

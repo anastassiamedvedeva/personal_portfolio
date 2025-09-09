@@ -14,8 +14,9 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-4">
-            I'm a front-end developer with over 6 years of experience building digital experiences for clients. Adept at translating UX strategy into marketing outcomes and streamlining workflows through scalable code and documentation.
+              I'm a Frontend Developer and CRM Marketing Specialist with over 7 years of experience delivering data-driven, responsive digital campaigns across nonprofit, wearable tech, insurance, and pharmaceutical industries.
           </p>
+            <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-4">I bring deep expertise in Salesforce Marketing Cloud, with hands-on experience developing dynamic emails, personalized landing pages (CloudPages), and automated multi-step journeys in Journey Builder and Automation Studio.</p>
           <div className="opacity-0 animate-fade-in-delay-4 pt-4">
             <a href="#projects" className="cosmic-button">
               View My Work

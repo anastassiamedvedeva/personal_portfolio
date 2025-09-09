@@ -10,21 +10,21 @@ export const AboutSection = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
-          <h3 className="text-2xl font-semibold">
-            Passionate Frontend Developer
+          <h3 className="text-muted-foreground">
+              At Havas, I served as the lead developer on 380+ personalized email campaigns for clients like Fitbit, Liberty Mutual, and Jornay, coding dynamic content with AMPscript and executing creative tests.
           </h3>
           <p className="text-muted-foreground">
-            Paragraph about my experience + technologies I know
+              At Dentsu, I built integrated WordPress and Salesforce CloudPages for major nonprofit clients and supported CRM platform transitions. I served as the primary technical contact for clients and internal account teams.
           </p>
           <p className="text-muted-foreground">
-            Paragraph about my passion for web design + ux/ui dev
+              At Mission Wired, I streamlined email production by 75% and improved mobile conversions by 10%. I also supervised junior staff and led company-wide training on project management tools and best practices, which became part of the standard onboarding curriculum.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-            <a href="#contact" className="cosmic-button">
-              Get in Touch
-            </a>
-            <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+            {/*<a href="#contact" className="cosmic-button">*/}
+            {/*  Get in Touch*/}
+            {/*</a>*/}
+            <a href="/public/Resume.pdf" className="cosmic-button px-6 py-2 rounded-full border border-primary hover:bg-primary/10 transition-colors duration-300">
               Download CV
             </a>
           </div>
@@ -49,8 +49,8 @@ export const AboutSection = () => {
               <div className="p-3 rounded-full bg-primary/10">
                 <User className="h-6 w-6 text-primary" /></div>
               <div className="text-left">
-                <h4 className="font-semibold text-lg">UI/UX Design</h4>
-                <p className="text-muted-foreground">Designing intuitive user interfaces and seamless user experiences.</p>
+                <h4 className="font-semibold text-lg">CRM Management</h4>
+                <p className="text-muted-foreground">Managing customer data, streamlining sales workflows, and improving overall CRM usability.</p>
               </div>
 
             </div>
@@ -62,7 +62,7 @@ export const AboutSection = () => {
                 <Briefcase className="h-6 w-6 text-primary" /></div>
               <div className="text-left">
                 <h4 className="font-semibold text-lg">Cross-functional Collaboration</h4>
-                <p className="text-muted-foreground">Collaboration among account, project, and creative teams.</p>
+                <p className="text-muted-foreground">Working closely with designers, project managers, and account teams to deliver seamless user experiences and align features with business goals.</p>
               </div>
             </div>
 
