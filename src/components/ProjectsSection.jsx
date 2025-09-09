@@ -7,7 +7,7 @@ const projects = [
         title: "AI Resume Analyzer",
         description: "An enterprise ready AI powered Applicant Tracking System (ATS)",
         image: "/Projects/Resumind_ATS_Tool.png",
-        tags: ["HTML", "TailwindCSS", "Javascript (ES6+)"],
+        tags: ["React", "TailwindCSS"],
         demoUrl: "https://ai-resume-analyzer-tool.vercel.app/"
   },
   {
@@ -15,7 +15,7 @@ const projects = [
         title: "Website Redesign",
         description: "A redesign of the BQ Flea website. Includes newsletter sign up functionality.",
         image: "/Projects/BQ_Flea_Site_Redesign.png",
-        tags: ["React", "TypeScript", "TailwindCSS"],
+        tags: ["HTML", "TailwindCSS", "ES6+"],
         demoUrl: "https://bqflearedesignam.netlify.app/"
   },
     {
